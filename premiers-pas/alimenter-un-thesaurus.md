@@ -121,3 +121,5 @@ SKOS permet de définir des regroupements significatifs ou «collections» de co
 Les Collections de concepts SKOS répondent à deux cas d'usage : la séparation d'un thésaurus en sous-parties \(micro-thésaurus\), ou la gestion des "facettes" dans un thésaurus.
 {% endhint %}
 
+
+

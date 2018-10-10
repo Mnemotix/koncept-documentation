@@ -10,5 +10,7 @@ Le standard **SKOS** pour  _"Simple Knowledge Organization System"_ est un modè
 
 ![Exemple du Th&#xE9;saurus ESCO \(classification europ&#xE9;enne des comp&#xE9;tences\)](.gitbook/assets/image%20%281%29.png)
 
-
+{% hint style="success" %}
+En savoir plus sur SKOS : [SKOS in a nutshell](https://www.slideshare.net/fabien_gandon/skos-in-a-nutshell-368338) \(par Fabien Gandon\)
+{% endhint %}
 
