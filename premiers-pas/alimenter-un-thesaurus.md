@@ -9,7 +9,7 @@ Koncept est notre solution de gestion de terminologies [SKOS](http://www.sparna.
 Actuellement chaque thésaurus de la thesauthèque est proposé dans toutes les rubriques de Weever. 
 
 {% hint style="info" %}
-Il sera possible dans le version 2 d'utiliser plusieurs thésaurus dans certaines parties de Weever pour indexer certains projets, ou tout le site.
+Il sera possible dans le version 2 d'utiliser plusieurs thésaurus dans certaines parties de Weever pour indexer des éléments particuliers, ou tout le site.
 {% endhint %}
 
 ## Présentation générale 
@@ -27,7 +27,7 @@ Les branches colorées qui sont de premier niveau dans la hiérarchie du thésau
 La seconde colonne attachée à la branche colorée correspond à la liste des TopConcepts, donc concepts génériques, qui constituent cette branche.
 
 {% hint style="info" %}
-Par ex dans le thésaurus de la mobilité, il est utile de définir une branche "disciplines scientifiques" qui regrouperait toutes les disciplines impliquées dans la R&D de ce secteur d'activité. Les TopConcepts peuvent être les champs disciplinaires majeurs, comme les sciences fondamentales \(mathématique, physique, mécanique des fluides\), les sciences et technologies informatiques, les sciences humaines et sociales...
+Par ex dans le thésaurus de la mobilité, il est utile de définir une branche "disciplines scientifiques" qui regrouperait toutes les disciplines impliquées dans la R&D de ce secteur d'activité. Les TopConcepts peuvent être les champs disciplinaires majeurs, comme les sciences fondamentales \(mathématique, physique, mécanique des fluides\), les sciences et technologies informatiques, les sciences humaines et sociales. La troisième branche représentera le détail de chaque discipline.
 {% endhint %}
 
 Pour ajouter une nouvelle branche au thésaurus, il suffit de cliquer sur les trois petits points à gauche de chaque box pour faire apparaître un menu contextuel.
@@ -38,7 +38,7 @@ Pour ajouter une nouvelle branche au thésaurus, il suffit de cliquer sur les tr
 Il est à noter que tous les sous-menus des menus contextuels des box possèdent également un **raccourci clavier**, bien utile lorsque l'on a a manipulé très régulièrement Koncept.
 {% endhint %}
 
-L'ajout d'une branche demande simplement un titre et une description optionnelle, puis l'ajout d'un code couleur qui sera repris dans Weever pour faciliter le repérage des branches du thésaurus.
+L'ajout d'une branche demande simplement un titre et une description optionnelle, puis l'ajout d'un code couleur qui sera repris dans Weever pour faciliter le repérage des branches du thésaurus lors du processus d'indexation.
 
 ![Fen&#xEA;tre de cr&#xE9;ation d&apos;une branche](../.gitbook/assets/image%20%2815%29.png)
 
@@ -61,17 +61,17 @@ Il suffit de remplir le formulaire avec les TopConcepts décrivant le domaine de
 L'enrichissement de la sous-branche en concepts peut se faire en deux temps : 
 
 * d'abord ajouter les concepts à la chaîne pour gagner du temps,
-* ensuite revenir sur chaque concept et éditer ce dernier pour renseigner sa fiche \(voir le paragraphe sur le Menu d'un concept\)
+* ensuite revenir sur chaque concept et éditer ce dernier pour renseigner sa fiche \(voir le paragraphe sur le [Menu d'un concept](https://mnemotix.gitbook.io/koncept/premiers-pas/alimenter-un-thesaurus#menu-dun-concept)\)
 
-Concernant l'ajout de concept au niveau de la seconde colonne, c'est à dire des TopConcepts de la branche, le menu contextuel change \(le raccourci clavier étant toujours Ctrl+Q\) : 
+Concernant l'ajout de concept au niveau de la seconde colonne, c'est à dire des TopConcepts de la branche, le menu contextuel change \(le raccourci clavier étant toujours Ctrl+Q\) car on ajoute à ce niveau les concepts plus spécifiques \(soit _narrower_\) : 
 
 ![](../.gitbook/assets/image%20%286%29.png)
 
 {% hint style="info" %}
-Nous détaillons les autres éléments du menu dans le **§** sur les relations sémantiques entre concepts
+Nous détaillons les autres éléments du menu dans le paragraphe sur [les relations sémantiques](https://mnemotix.gitbook.io/koncept/premiers-pas/alimenter-un-thesaurus#les-relations-semantiques) entre concepts
 {% endhint %}
 
-Un clic sur Ajouter un concept ouvre la fenêtre suivante, avec l'ajout du choix de type de relation, soit un concept plus spécifique \(d'où le choix de _narrower_\), soit un concept relié \(voir le paragraphe sur les relations sémantiques\) : 
+Un clic sur Ajouter un concept ouvre la fenêtre suivante, avec l'ajout du choix de type de relation, soit un concept plus spécifique \(d'où le choix de _narrower_\), soit un concept relié \(voir le paragraphe sur [les concepts reliés](https://mnemotix.gitbook.io/koncept/premiers-pas/alimenter-un-thesaurus#les-concepts-relies)\) : 
 
 ![Ajouter un concept \(skos:Concept\)](../.gitbook/assets/image%20%2817%29.png)
 
@@ -87,7 +87,7 @@ Nous présentons ci-après les différentes métadonnées qu'il est recommandé 
 
 Les labels \(ou termes\) servent à nommer le concept. Par exemple, tutoriel, tutorial, cursillo sont des étiquettes décrivant le même concept en français, anglais et espagnol respectivement.
 
-Généralement, il faut remplir le label dit principal \(`skos:prefLabel`\) pour nommer le concept. Il peut aussi y avoir des variantes, dans ce cas, il faut aussi remplir les labels secondaires \(`skos:altLabel`\), par exemple, si le terme possède un acronyme, il est intéressant de mettre ce dernier en tant que label secondaire. Enfin il est aussi possible que le concept possède une signification dite cachée \(`skos:hiddenLabel`\), c'est à dire propre à une communauté ou un contexte particulier.
+Généralement, il faut remplir le label dit principal \(`skos:prefLabel`\) pour nommer le concept. Il peut aussi y avoir des variantes, dans ce cas, il faut aussi remplir les labels secondaires \(`skos:altLabel`\), par exemple, si le terme possède un acronyme, il est intéressant de mettre ce dernier en tant que label secondaire \(ex : Ressources Humaines pour le label principal et RH pour le label secondaire\). Enfin il est aussi possible que le concept possède une signification dite cachée \(`skos:hiddenLabel`\), c'est à dire propre à une communauté ou un contexte particulier.
 
 ![Labels multilingues d&apos;un concept](../.gitbook/assets/image%20%288%29.png)
 
