@@ -19,15 +19,22 @@ Pour l'instant, la proposition de nouveaux concepts est active à partir de la f
 
 La suggestion d'un nouveau concept se passe de la même façon que l'ajout d'un concept, en commençant par l'écriture d'un hashtag \(\#\) et les premières lettres du concept au sein d'un Mémo. Si celui-ci n'existe pas \(c'est à dire que l’auto-complétion ne propose aucun terme\), une box indique comment procéder, et le terme apparaît en grisé.
 
-![Exemple de soumission d&apos;un nouveau concept ](../.gitbook/assets/image%20%2812%29.png)
+![Exemple de soumission d&apos;un nouveau concept ](../.gitbook/assets/image%20%2813%29.png)
 
 ### Validation des concepts
 
-Dans Koncept, tous les nouveaux concepts proposés à partir des Mémos de Weever se retrouvent dans la branche “Bac à sable” \(en gris\). Il est alors possible de valider ou d'invalider ces concepts nouveaux ou de le substituer à un concept existant dans le thésaurus. Une fois validé, le concept peut être affecté à une branche ou sous-branche soit existante, soit créée pour l'occasion, ou sinon il reste dans la branche Bac à sable.
+Dans Koncept, tous les nouveaux concepts proposés à partir des Mémos de Weever se retrouvent dans la branche “Bac à sable” \(en gris\). Il est alors possible de valider ou d'invalider ces concepts nouveaux ou de le substituer à un concept existant dans le thésaurus. Une fois validé, le concept peut être affecté à une branche ou sous-branche soit existante, soit créée pour l'occasion, ou sinon il reste dans la branche "Bac à sable".
 
-![](../.gitbook/assets/image%20%281%29.png)
+![Concepts &#xE0; valider](../.gitbook/assets/image%20%289%29.png)
+
+Lorsqu' un ou plusieurs concepts sont proposés à partir de Weever, on peut voir dans Koncept ces derniers en cliquant sur la branche "Bac à Sable". Pour chaque nouveau concept, le menu contextuel de l'icône Validation propose plusieurs actions : 
+
+* la validation du concept directement dans la branche "Bac à Sable", il est ensuite possible de déplacer le concept dans la bonne branche en utilisant le menu contextuel de la box concept \(trois petits points\)
+* le déplacement du concept dans la branche souhaitée \(il faudra alors valider le concept par la suite\)
+* substituer le concept à un autre existant dans le thésaurus
+* ou invalider le concept \(c'est à dire ne pas le garder dans le thésaurus\)
+
+![Processus de validation d&apos;un concept](../.gitbook/assets/image%20%281%29.png)
 
 
-
-### 
 

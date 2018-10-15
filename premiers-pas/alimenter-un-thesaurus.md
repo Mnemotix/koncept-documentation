@@ -4,7 +4,7 @@
 
 Koncept est notre solution de gestion de terminologies [SKOS](http://www.sparna.fr/skos/SKOS-traduction-francais.html) dont les concepts servent à indexer les ressources versées dans [Weever](https://mnemotix.gitbook.io/weever/).
 
-![Page d&apos;accueil de Koncept](../.gitbook/assets/image%20%2813%29.png)
+![Page d&apos;accueil de Koncept](../.gitbook/assets/image%20%2814%29.png)
 
 Actuellement chaque thésaurus de la thesauthèque est proposé dans toutes les rubriques de Weever. 
 
@@ -32,7 +32,7 @@ Par ex dans le thésaurus de la mobilité, il est utile de définir une branche 
 
 Pour ajouter une nouvelle branche au thésaurus, il suffit de cliquer sur les trois petits points à gauche de chaque box pour faire apparaître un menu contextuel.
 
-![Cr&#xE9;er une nouvelle branche du th&#xE9;saurus \(skos:ConceptScheme\)](../.gitbook/assets/image%20%2814%29.png)
+![Cr&#xE9;er une nouvelle branche du th&#xE9;saurus \(skos:ConceptScheme\)](../.gitbook/assets/image%20%2815%29.png)
 
 {% hint style="info" %}
 Il est à noter que tous les sous-menus des menus contextuels des box possèdent également un **raccourci clavier**, bien utile lorsque l'on a a manipulé très régulièrement Koncept.
@@ -40,7 +40,7 @@ Il est à noter que tous les sous-menus des menus contextuels des box possèdent
 
 L'ajout d'une branche demande simplement un titre et une description optionnelle, puis l'ajout d'un code couleur qui sera repris dans Weever pour faciliter le repérage des branches du thésaurus lors du processus d'indexation.
 
-![Fen&#xEA;tre de cr&#xE9;ation d&apos;une branche](../.gitbook/assets/image%20%2818%29.png)
+![Fen&#xEA;tre de cr&#xE9;ation d&apos;une branche](../.gitbook/assets/image%20%2819%29.png)
 
 Il est possible de revenir sur la fenêtre de description de la branche en cliquant sur l'icône "crayon" dans la box de la branche : 
 
@@ -50,7 +50,7 @@ Il est possible de revenir sur la fenêtre de description de la branche en cliqu
 
 Comme pour ajouter une branche, il suffit de cliquer sur les trois petits points pour ouvrir le menu contextuel \(ou faire Ctrl+Q en raccourci clavier\), en se plaçant sur la branche à renseigner : 
 
-![](../.gitbook/assets/image%20%2819%29.png)
+![](../.gitbook/assets/image%20%2820%29.png)
 
 Il suffit de remplir le formulaire avec les TopConcepts décrivant le domaine de connaissance que représente la branche colorée \(donc le schéma de concept, pour reprendre les termes SKOS\) : 
 
@@ -73,7 +73,7 @@ Nous détaillons les autres éléments du menu dans le paragraphe sur [les relat
 
 Un clic sur Ajouter un concept ouvre la fenêtre suivante, avec l'ajout du choix de type de relation, soit un concept plus spécifique \(d'où le choix de _narrower_\), soit un concept relié \(voir le paragraphe sur [les concepts reliés](https://mnemotix.gitbook.io/koncept/premiers-pas/alimenter-un-thesaurus#les-concepts-relies)\) : 
 
-![Ajouter un concept \(skos:Concept\)](../.gitbook/assets/image%20%2820%29.png)
+![Ajouter un concept \(skos:Concept\)](../.gitbook/assets/image%20%2821%29.png)
 
 {% hint style="info" %}
 Le raccourci clavier est à ce stade très utile lorsqu'il faut ajouter plusieurs concepts à la chaîne dans une sous-branche. Il est possible de revenir dans un deuxième temps sur chaque concept, comme le décrit le paragraphe suivant.
@@ -89,7 +89,7 @@ Les labels \(ou termes\) servent à nommer le concept. Par exemple, tutoriel, tu
 
 Généralement, il faut remplir le label dit principal \(`skos:prefLabel`\) pour nommer le concept. Il peut aussi y avoir des variantes, dans ce cas, il faut aussi remplir les labels secondaires \(`skos:altLabel`\), par exemple, si le terme possède un acronyme, il est intéressant de mettre ce dernier en tant que label secondaire \(ex : Ressources Humaines pour le label principal et RH pour le label secondaire\). Enfin il est aussi possible que le concept possède une signification dite cachée \(`skos:hiddenLabel`\), c'est à dire propre à une communauté ou un contexte particulier.
 
-![Labels multilingues d&apos;un concept](../.gitbook/assets/image%20%2810%29.png)
+![Labels multilingues d&apos;un concept](../.gitbook/assets/image%20%2811%29.png)
 
 {% hint style="info" %}
 Koncept gère pour l'instant le français, l'anglais et l'espagnol pour tous les types de labels SKOS.
@@ -99,7 +99,7 @@ Koncept gère pour l'instant le français, l'anglais et l'espagnol pour tous les
 
 Les notes permettent de documenter le concept \(optionnel mais conseillé pour fabriquer un thésaurus riche et optimisé sémantiquement\).
 
-![Notes de documentation sur le concept](../.gitbook/assets/image%20%2816%29.png)
+![Notes de documentation sur le concept](../.gitbook/assets/image%20%2817%29.png)
 
 * **Note d'usage** \(`skos:scopeNote`\) donne des indications sur l'usage du concept
 * **Définition** \(`skos:definition`\) est utile pour une explication approfondie sur le sens du concept
@@ -132,19 +132,19 @@ Pour relier deux concepts dans le thésaurus, il faut ouvrir le menu contextuel 
 
 Une fenêtre s'ouvre proposant la liste des concepts dans le thésaurus, le moteur de recherche facilite le processus avec une auto-complétion, dès l'écriture des premières lettres.
 
-![Associer un concept &#xE0; un autre dans le th&#xE9;saurus](../.gitbook/assets/image%20%2811%29.png)
+![Associer un concept &#xE0; un autre dans le th&#xE9;saurus](../.gitbook/assets/image%20%2812%29.png)
 
 Lors qu'un concept a été relié à un autre, lorsqu'on revient à la visualisation générale du thésaurus en colonne, une petite box mentionne les relations sous le concept : 
 
-![Concept associ&#xE9;](../.gitbook/assets/image%20%2822%29.png)
+![Concept associ&#xE9;](../.gitbook/assets/image%20%2823%29.png)
 
 Un clic sur la box des concepts associés ouvre à côté un sous-menu présentant la liste des concept reliés au concept sélectionné : 
 
-![Liste des concepts reli&#xE9;s](../.gitbook/assets/image%20%289%29.png)
+![Liste des concepts reli&#xE9;s](../.gitbook/assets/image%20%2810%29.png)
 
 ### Alignement de concepts
 
 Il est aussi possible d'établir des relations inter-thésaurus en utilisant la fonction Aligner avec \(Ctrl+W\), ce qui permet de faire des alignements de concepts entre différents thésaurus de la thesauthèque.
 
-![Alignement de concepts entre th&#xE9;saurus](../.gitbook/assets/image%20%2815%29.png)
+![Alignement de concepts entre th&#xE9;saurus](../.gitbook/assets/image%20%2816%29.png)
 
