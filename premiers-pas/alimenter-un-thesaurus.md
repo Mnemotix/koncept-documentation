@@ -124,6 +124,8 @@ Dans SKOS, les relations hiérarchiques entre les concepts sont exprimées par l
 
 Pour ce qui concerne les relations non hiérarchiques, celles-ci expriment une notion de «proximité» entre des concepts \(sans être pour autant reliées hiérarchiquement\). Dans Koncept, nous utilisons la relation SKOS `skos:related` \(correspondant à la notion de terme associé, RT - _Related Term_, que l'on retrouve classiquement dans les thésaurus\).
 
+![Exemple de th&#xE9;saurus SKOS](https://lh6.googleusercontent.com/zn112L2nIGrGTlbora12NFCefzLZSaAzo1aaE5rM64pdazpV_iGEwUC5vTJNmwlLuF93wo9F1fdP1KB9_94uTebUZjfkb71oWRfMdRtBZAEj7hTlkbMrFd6923P9L-6gO4rjiy31QBQ)
+
 ### Les concepts reliés
 
 Pour relier deux concepts dans le thésaurus, il faut ouvrir le menu contextuel du concept et sélectionner Associer avec \(Ctrl+L\) : 
